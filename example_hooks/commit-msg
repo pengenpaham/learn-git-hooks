@@ -1,0 +1,5 @@
+#!/bin/bash
+
+author=$(git log -1 --pretty=format:'%an')
+repo=$(basename `git rev-parse --show-toplevel`)
+echo "si ${author} lagi nambahin commit ke ${repo} lho gaes :))"
